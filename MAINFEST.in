@@ -1,0 +1,3 @@
+include toolab/*.py
+include toolab/io/*.py
+include toolab/envs/*

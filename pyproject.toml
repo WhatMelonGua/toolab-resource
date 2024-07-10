@@ -1,0 +1,26 @@
+[build-system] 
+requires = ["hatchling"] 
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["toolab"]
+
+[project] 
+name = "toolab"
+version = "0.0.01-1"
+keywords = ["config", "time record", "io control", "local", "tool"]
+description = "A site-package for self-using, if u like, get it!"
+readme = "README.md"
+license = {text = "MIT License"}
+requires-python = ">= 3.4"
+dependencies = [
+  "importlib",
+  "pathlib",
+  "pandas",
+]
+authors = [
+  {name = "VaterFus", email = "1107818699@qq.com"},
+]
+
+[project.urls]
+Repository = "https://github.com/WhatMelonGua/toolab-resource"
