@@ -10,6 +10,10 @@
 """  # [By: HuYw]
 
 # region |- Import -|
-from . import logger
 from . import timeClock
+from . import logger
+from . import io
+import os
 # endregion
+
+LIB_ROOT = io.getScriptDir()
