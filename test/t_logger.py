@@ -13,10 +13,14 @@
 # import sys
 # sys.path.append("../")
 from toolab import logger
+import pandas as pd
 # endregion
 
-logger = logger.get()
+logger = logger.get("test.log")
 logger.info("Log Test")
+
+fr = pd.DataFrame([[0,0],[1,1]], columns=['A', 'B'])
+logger.error(fr)
 
 def log(any):
     logger.warn(any)
