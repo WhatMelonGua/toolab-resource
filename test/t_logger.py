@@ -20,7 +20,7 @@ logger = logger.get("test.log")
 logger.info("Log Test")
 
 # test str
-fr = pd.DataFrame([[0,0],[1,1]], columns=['A', 'B'])
+fr = pd.DataFrame([[0, 0], [1, 1]], columns=['A', 'B'])
 logger.error(fr)
 
 def log(any):
