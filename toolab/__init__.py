@@ -11,5 +11,5 @@
 
 # region |- Import -|
 from . import logger
-from . import time
+from . import timeClock
 # endregion

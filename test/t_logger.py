@@ -12,10 +12,10 @@
 # region |- Import -|
 # import sys
 # sys.path.append("../")
-import toolab
+from toolab import logger
 # endregion
 
-logger = toolab.logger.get()
+logger = logger.get()
 logger.info("Log Test")
 
 def log(any):
