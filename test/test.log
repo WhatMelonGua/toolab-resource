@@ -1,0 +1,5 @@
+[INFO] 2024-07-11 22:26:26,031: Log Test, t_logger.py[20] > t_logger > <module>
+[ERROR] 2024-07-11 22:26:26,038:    A  B
+0  0  0
+1  1  1, t_logger.py[23] > t_logger > <module>
+[WARNING] 2024-07-11 22:26:26,050: any, t_logger.py[26] > t_logger > log
