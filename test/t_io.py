@@ -14,3 +14,6 @@ import toolab
 # endregion
 print(toolab.io.getScriptDir(__file__))
 print(toolab.io.getRunDir())
+
+
+pio = toolab.io.PromiseIO()
